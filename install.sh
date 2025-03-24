@@ -39,7 +39,7 @@ yay -S --needed \
 
 echo "📁 Copying configuration files to \$HOME..."
 mkdir -p "$HOME/Downloads" "$HOME/Pictures"
-cp -r .bashrc .config .lock.sh install.sh wallpaper.png "$HOME/"
+cp -r .bashrc .config .lock.sh wallpaper.png "$HOME/"
 USER_NAME=$(basename $HOME)
 sed -i "s|/home/user.name|/home/$USER_NAME|g" ~/.config/gtk-3.0/bookmarks
 

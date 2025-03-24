@@ -15,7 +15,7 @@ Welcome to my personal dotfiles repository for **Hyprland**.
 | `.config/`        | Hyprland configuration & related tools       |
 | `.bashrc`         | Personalized Bash shell configuration        |
 | `.lock.sh`        | Custom screen-lock script for Hyprland       |
-| `install.sh`      | Easy and intuitive installation script       |
+| `install.sh`      | Installation script       |
 | `wallpaper.png`   | My wallpaper used with Hyprland         |
 
 ---

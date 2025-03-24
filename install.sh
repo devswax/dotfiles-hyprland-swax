@@ -34,7 +34,8 @@ echo "📦 Installing AUR packages via yay..."
 yay -S --needed \
   spotify \
   flameshot-git \
-  nerd-fonts
+  nerd-fonts \
+  nerdfix
 
 echo "📁 Copying configuration files to \$HOME..."
 mkdir -p "$HOME/Downloads" "$HOME/Pictures"
